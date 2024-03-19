@@ -50,15 +50,14 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[『SUPRA』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ 𝗞𝗜𝗡𝗚𓄂⃝🔱 𝗕 ❤️ 𝗪](tg://user?id={6398607708})"
+        creator = f"[『SUPRA』|SUPRA](tg://user?id={6398607708})"
         DEADLY_ON = f"""
-ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴋɪɴɢ x ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+SUPRA {mention},
+SUPRA:- {creator}!
 
-ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
+NAKUL:- {myOwner}
 
-ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- {creator}
+SUPRA:- {creator}
 
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss sᴜᴘᴘᴏʀᴛ ,ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʀᴇᴘᴏ!
-    """
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ  """
         await e.client.send_file(e.chat_id, DEADLY_IMG, caption=DEADLY_ON, buttons=Deadly_Button)
