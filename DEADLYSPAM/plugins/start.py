@@ -10,23 +10,23 @@ ALIVE_IMG = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_IMG = ALIVE_IMG
 else:
-    DEADLY_IMG = "https://telegra.ph/file/2869b59ce23e2a4674560.jpg"
+    DEADLY_IMG = "https://telegra.ph/file/c576171a46305e51f85c7.jpg"
 
 OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "😈☠️𝓃𝒶𝔨𝕦ᒪ'ｓ😈 ⒻⓊς𝓀𝓔Ř ｂσｔ☠️😈"
+    OWNER_NAME = "AFK SKYLORD"
 
 OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/THE_FUKER_BOT_2926"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/THE_FUCKING_BOTS_2926")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/afk_community_ll"),
+        Button.url("DEVELOPER", "https://t.me/Rajput_huhh")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", 
+        Button.url("KHUD BNA LE BSDK", 
         ]
         ]
         
@@ -55,9 +55,9 @@ async def start(e):
 SUPRA {mention},
 SUPRA:- {creator}!
 
-NAKUL:- {myOwner}
+AFK-SKYLORD:- {myOwner}
 
 SUPRA:- {creator}
 
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ  """
+ """
         await e.client.send_file(e.chat_id, DEADLY_IMG, caption=DEADLY_ON, buttons=Deadly_Button)
