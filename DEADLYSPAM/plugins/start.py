@@ -23,10 +23,10 @@ OWNER_ID = config.OWNER_ID
 Deadly_Button = [
         [
         Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/afk_community_ll"),
-        Button.url("DEVELOPER", "https://t.me/Rajput_huhh")
+        Button.url("DEVELOPER", "https://t.me/Rajput_hu")
         ],
         [
-        Button.url("KHUD BNA LE BSDK", 
+        Button.url("KHUD BNA LE BSDK"), 
         ]
         ]
         
